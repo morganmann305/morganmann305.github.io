@@ -5,6 +5,7 @@
 body {
   font-size: 20pt;
   font-family: 'Nixie One', cursive;
+  color: black;
 }
 
 h1, h2 {
@@ -39,6 +40,9 @@ h3 {
   margin-bottom: 10mm;
 }
 
-img {
-  float: right;
+#move {
+  border: 2mm solid black;
+  position: relative;
+  top: 2mm;
+  left: 0;
 }
