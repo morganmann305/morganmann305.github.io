@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+
+body {
+  font-size: 20pt;
+  font-family: 'Nixie One', cursive;
+}
+
+h1, h2 {
+  font-size: 30pt;
+  font-family: 'Sigmar One', cursive;
+  margin: 0;
+}
+
+header {
+  height: auto;
+  width:  auto;
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.stay_close {
+  margin-top: 0;
+}
+
+.need_space {
+  margin-bottom: 10mm;
+}
+
+img {
+  float: right;
+}
