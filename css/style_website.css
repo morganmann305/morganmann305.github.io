@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+
+body {
+  font-size: 20pt;
+  font-family: 'Inconsolata', monospace;
+  color: blue;
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: 'Spirax', cursive;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+ h2 {
+   font-size: 30pt;
+   font-family: 'Spirax', cursive;
+   margin: 0;
+   padding-bottom: 20px;
+   padding-top: 20px;
+ }
+
+header {
+  height: auto;
+  width:  auto;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  border-left: 1px solid rgb(186,214,240);;
+}
+
+nav {
+  border-radius: 5px;
+}
+
+nav a:visited {
+  color: rgb(96,219,255);
+}
+
+nav a:hover {
+  color: purple;
+}
+
+nav a:active {
+  color: rgb(126,187,175);
+}
+
+p {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+#move {
+  border: 2mm solid black;
+  position: relative;
+  top: 2mm;
+  left: 0;
+}
+
+#coffee {
+  margin-top: 60px;
+  padding-bottom: 70px;
+}
+
+#container {
+  width: 960px;
+}
+
+#brazil {
+  background-image: url('../images/brazil.png');
+  background-repeat: repeat-y;
+  background-position: right top;
+  color: green;
+}
+
+.video {
+  margin-top: 80px;
+}
