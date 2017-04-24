@@ -45,16 +45,22 @@ nav li {
   margin-right: 20px;
 }
 
+nav a {
+  color: rgb(195,191,66);
+  background-color: green;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+
 nav a:visited {
   color: black;
 }
 
-nav a {
-  color: rgb(195,191,66);
-}
-
 nav a:hover {
   color: grey;
+  background-color: white;
 }
 
 nav a:active {
