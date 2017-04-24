@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
-@import url('https://fonts.googleapis.com/css?family=Spirax');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 
 body {
   font-size: 20pt;
   font-family: 'Inconsolata', monospace;
-  color: blue;
+  color: green;
+  background: url('../images/washi.png');
 }
 
 h1 {
   font-size: 50pt;
-  font-family: 'Spirax', cursive;
+  font-family:'Righteous', cursive;
   margin: 0;
   padding-bottom: 20px;
 }
 
  h2 {
    font-size: 30pt;
-   font-family: 'Spirax', cursive;
+   font-family:'Righteous', cursive;
    margin: 0;
    padding-bottom: 20px;
+   padding-top: 20px;
+ }
+
+ h3 {
    padding-top: 20px;
  }
 
@@ -38,28 +43,26 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 20px;
-  text-align: center;
-  border-left: 1px solid rgb(186,214,240);;
-}
-
-nav {
-  border-radius: 5px;
 }
 
 nav a:visited {
-  color: rgb(96,219,255);
+  color: black;
+}
+
+nav a {
+  color: rgb(195,191,66);
 }
 
 nav a:hover {
-  color: purple;
+  color: grey;
 }
 
 nav a:active {
-  color: rgb(126,187,175);
+  color: green;
 }
 
 p {
-  margin-top: 30px;
+  margin-top: 10px;
   padding-bottom: 20px;
 }
 
@@ -68,7 +71,7 @@ h3 {
 }
 
 #move {
-  border: 2mm solid black;
+  border: 1mm solid rgb(195,191,66);
   position: relative;
   top: 2mm;
   left: 0;
@@ -84,12 +87,42 @@ h3 {
 }
 
 #brazil {
-  background-image: url('../images/brazil.png');
-  background-repeat: repeat-y;
   background-position: right top;
   color: green;
 }
 
+.align {
+
+}
+
+#size {
+  margin-top: 10px;
+  float: left;
+  padding-right: 10px;
+}
+
 .video {
   margin-top: 80px;
+}
+
+#phone {
+  float: left;
+  margin-top: 10px;
+}
+
+#contact {
+  margin-top: 30px;
+}
+
+#sailor_mars {
+  margin-top: 10px;
+}
+
+#flag {
+  margin-top: 10px;
+  float: right;
+}
+
+#footer {
+  margin-top: 30px;
 }
