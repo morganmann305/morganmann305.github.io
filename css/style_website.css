@@ -6,27 +6,22 @@ body {
   font-size: 20pt;
   font-family: 'Inconsolata', monospace;
   color: green;
-  background: url('../images/washi.png');
+  background: url('../images/congruent_pentagon.png');
 }
 
 h1 {
   font-size: 50pt;
   font-family:'Righteous', cursive;
-  margin: 0;
-  padding-bottom: 20px;
 }
 
  h2 {
    font-size: 30pt;
    font-family:'Righteous', cursive;
-   margin: 0;
-   padding-bottom: 20px;
-   padding-top: 20px;
  }
 
- h3 {
-   padding-top: 20px;
- }
+h3 {
+  padding-bottom: 0;
+}
 
 header {
   height: auto;
@@ -47,7 +42,7 @@ nav li {
 
 nav a {
   color: rgb(195,191,66);
-  background-color: green;
+  background-color: rgba(116,231,128,0.4);
   border-radius: 5px;
   display: inline-block;
   padding: 5px;
@@ -67,19 +62,15 @@ nav a:active {
   color: green;
 }
 
-p {
-  margin-top: 10px;
-  padding-bottom: 20px;
-}
-
-h3 {
-  margin: 0;
+p{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #move {
-  border: 1mm solid rgb(195,191,66);
+  border: 1px solid rgb(195,191,66);
   position: relative;
-  top: 2mm;
+  top: 2px;
   left: 0;
 }
 
@@ -92,11 +83,6 @@ h3 {
   width: 960px;
 }
 
-#brazil {
-  background-position: right top;
-  color: green;
-}
-
 #size {
   margin-top: 10px;
   float: left;
@@ -107,24 +93,6 @@ h3 {
   margin-top: 80px;
 }
 
-#phone {
-  float: left;
-  margin-top: 10px;
-}
-
-#contact {
-  margin-top: 30px;
-}
-
-#sailor_mars {
-  margin-top: 10px;
-}
-
-#flag {
-  margin-top: 10px;
-  float: right;
-}
-
 #footer {
   margin-top: 30px;
 }
@@ -132,4 +100,8 @@ h3 {
 .infographic {
   margin-top: 50px;
   padding-bottom: 0;
+}
+
+#brazil {
+  background: url('../images/ignasi_pattern_s.png');
 }
