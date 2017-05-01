@@ -12,15 +12,20 @@ body {
 h1 {
   font-size: 50pt;
   font-family:'Righteous', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
  h2 {
    font-size: 30pt;
    font-family:'Righteous', cursive;
+   margin-top: 0;
+   margin-bottom: 0;
  }
 
 h3 {
-  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header {
@@ -62,21 +67,16 @@ nav a:active {
   color: green;
 }
 
-p{
+p {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 #move {
-  border: 1px solid rgb(195,191,66);
+  border: 6px solid rgb(195,191,66);
   position: relative;
   top: 2px;
   left: 0;
-}
-
-#coffee {
-  margin-top: 60px;
-  padding-bottom: 70px;
 }
 
 #container {
@@ -97,11 +97,18 @@ p{
   margin-top: 30px;
 }
 
-.infographic {
-  margin-top: 50px;
-  padding-bottom: 0;
-}
-
 #brazil {
   background: url('../images/ignasi_pattern_s.png');
+}
+
+.close {
+  margin: 0;
+}
+
+#distance {
+  margin-bottom: 5px;
+}
+
+.cool {
+  margin-bottom: 20px;
 }
