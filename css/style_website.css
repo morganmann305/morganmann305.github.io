@@ -19,7 +19,7 @@ h1 {
  h2 {
    font-size: 30pt;
    font-family:'Righteous', cursive;
-   margin-top: 0;
+   margin-top: 20px;
    margin-bottom: 0;
  }
 
@@ -77,6 +77,8 @@ p {
   position: relative;
   top: 2px;
   left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #container {
@@ -89,16 +91,8 @@ p {
   padding-right: 10px;
 }
 
-.video {
-  margin-top: 80px;
-}
-
 #footer {
   margin-top: 30px;
-}
-
-#brazil {
-  background: url('../images/ignasi_pattern_s.png');
 }
 
 .close {
@@ -111,4 +105,21 @@ p {
 
 .cool {
   margin-bottom: 20px;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+#yo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  margin-top: 60px;
+}
+
+#coffee {
+  margin-top: 50px;
 }
