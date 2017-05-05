@@ -125,10 +125,6 @@ p {
   margin-top: 60px;
 }
 
-#coffee {
-  margin-top: 50px;
-}
-
 @media print {
   h1 {
   font-size: 80pt;
