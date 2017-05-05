@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Boogaloo|Source+Serif+Pro');
 
+@media screen {
 
 body {
   font-size: 20px;
@@ -125,7 +126,15 @@ p {
   margin-top: 60px;
 }
 
+}
+
 @media print {
+
+  body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14pt;
+  }
+
   h1 {
   font-size: 80pt;
   font-family: 'Boogaloo', cursive;
@@ -150,7 +159,6 @@ h3 {
 nav, footer {
 display: none;
 }
-
 }
 
 @media (max-width: 320px) {
