@@ -133,6 +133,8 @@ p {
   body {
     font-family: 'Source Serif Pro', serif;
     font-size: 14pt;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   h1 {
