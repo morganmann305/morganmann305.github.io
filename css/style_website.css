@@ -76,6 +76,10 @@ p {
   width: 960px;
 }
 
+#move {
+  margin-top: 20px;
+}
+
 #size {
   margin-top: 10px;
   float: left;
