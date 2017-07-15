@@ -72,14 +72,6 @@ p {
   margin-bottom: 30px;
 }
 
-#move {
-  position: relative;
-  top: 2px;
-  left: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 #container {
   width: 960px;
 }
