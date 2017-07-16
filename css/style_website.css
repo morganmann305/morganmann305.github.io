@@ -115,7 +115,14 @@ p {
   margin-top: 20px;
 }
 
-#ballet {
-  margin-left: 20px;
-  float: right;
+#game {
+  margin-top: 20px;
+}
+
+#links {
+  margin-top: 50px;
+}
+
+#social {
+  margin-top: 40px;
 }
