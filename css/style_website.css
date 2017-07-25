@@ -127,6 +127,16 @@ p {
   margin-top: 40px;
 }
 
+#coffee{
+  margin-top: 60px;
+}
+
+#resume {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
 .polaroid {
   position: relative;
   width: 220px;
