@@ -148,6 +148,9 @@ p {
   margin-bottom: 30px;
 }
 
+.center {
+text-align: center;
+}
 
 .polaroid {
   position: relative;
