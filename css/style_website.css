@@ -148,6 +148,7 @@ p {
   margin-bottom: 30px;
 }
 
+
 .center {
 text-align: center;
 }
@@ -155,6 +156,8 @@ text-align: center;
 .polaroid {
   position: relative;
   width: 220px;
+  display: block;
+  margin: 0 auto;
 }
 
 .polaroid img {
